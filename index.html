@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <title>News Homepage</title>
+    <script src="assets/scripts/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Main Navigation">
+        <a href="#" title="Home" aria-current="Page"
+          ><img
+            src="assets/images/logo.svg"
+            class="logo"
+            alt="W3 Logo"
+            aria-hidden="true"
+        /></a>
+        <div id="overlay" aria-hidden="true"></div>
+        <div id="nav-menu" role="navigation" aria-label="Navigation Menu">
+          <ul>
+            <li><a href="#" aria-current="Page" title="Home">Home</a></li>
+            <li><a href="#" title="New">New</a></li>
+            <li><a href="#" title="Popular">Popular</a></li>
+            <li><a href="#" title="Trending">Trending</a></li>
+            <li><a href="#" title="Categories">Categories</a></li>
+          </ul>
+        </div>
+        <button
+          id="menu-button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Expand Navigation Menu"
+        >
+          <img
+            src="assets/images/icon-menu.svg"
+            alt="Menu"
+            aria-hidden="true"
+          />
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="main-article" aria-label="Main Article">
+        <picture>
+          <source
+            srcset="assets/images/image-web-3-desktop.jpg"
+            media="(min-width:481px)"
+          />
+          <img
+            src="assets/images/image-web-3-mobile.jpg"
+            alt="Web 3"
+            aria-hidden="true"
+          />
+        </picture>
+        <div class="main-article__body">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <div class="main-article__content">
+            <p>
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+      </section>
+      <section class="new-articles" aria-label="New Articles">
+        <h2>New</h2>
+        <ul>
+          <li>
+            <h3><a href="#">Hydrogen VS Electric Cars</a></h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </li>
+          <li>
+            <h3><a href="#">The Downsides of AI Artistry</a></h3>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </li>
+          <li>
+            <h3><a href="#">Is VC Funding Drying Up?</a></h3>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="highlights" aria-label="Highlights">
+        <ul>
+          <li>
+            <img
+              src="assets/images/image-retro-pcs.jpg"
+              alt="PCs"
+              aria-hidden="true"
+            />
+            <div>
+              <p>01</p>
+              <h3><a href="#">Reviving Retro PCs</a></h3>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src="assets/images/image-top-laptops.jpg"
+              alt="Laptops"
+              aria-hidden="true"
+            />
+            <div>
+              <p>02</p>
+              <h3><a href="#">Top 10 Laptops of 2022</a></h3>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src="assets/images/image-gaming-growth.jpg"
+              alt="Gaming Growth"
+              aria-hidden="true"
+            />
+            <div>
+              <p>03</p>
+              <h3><a href="#">The Growth of Gaming</a></h3>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Developed by Rashid Shamloo</p>
+      <ul class="footer-icon">
+        <li>
+          <a
+            href="https://rashidshamloo.github.com"
+            title="GitHub"
+            target="_blank"
+            ><i class="bi-github" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/rashid-shamloo/"
+            title="Linked-in"
+            target="_blank"
+            ><i class="bi-linkedin" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/rashidshamloo"
+            title="Twitter"
+            target="_blank"
+            ><i class="bi-twitter" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -36,7 +36,7 @@ This is a solution to the [Results Summary Component challenge on Frontend Mento
 
 - Semantic HTML5 markup
 - Sass
-- CSS Flexbox
+- CSS Grid
 - Vanilla JavaScript
 
 ### What I learned
